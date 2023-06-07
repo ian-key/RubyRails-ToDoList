@@ -34,7 +34,7 @@ gem 'webrick', '~> 1.7'
 # Mail gem
 gem 'mail', '>= 2.8.0.rc1'
 
-# Use ActiveStorage variant
+# Use ActiveStorage variantbund
 # gem 'mini_magick', '~> 4.8'
 
 # Use Capistrano for deployment
@@ -42,6 +42,8 @@ gem 'mail', '>= 2.8.0.rc1'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.13', require: false
+
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -55,6 +57,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 5.1'
   gem 'rubocop', '~> 1.36'
   gem 'rubocop-rspec', '2.12'
+  gem 'rails_admin', '~> 2.0'
 end
 
 group :development do
